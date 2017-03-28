@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>VPN-Price</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+		<link rel="stylesheet" href="js/bootstrap-slider-master/dist/css/bootstrap-slider.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media.css">
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="map"><!-- <img src="img/map.png" class="img-responsive" alt=""> --></div>
+		<!-- ______HEADER_______________________________________________ -->
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<nav class="navbar navbar-default" role="navigation">
+						<div class="container-fluid">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+					
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse navbar-ex1-collapse">
+								<ul class="nav navbar-nav">
+									<li><a href="#">Home</a></li>
+									<li><a href="#">Datacenters</a></li>
+									<li class="active"><a href="#">Pricing</a></li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Support <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="#">Contact Us</a></li>
+											<li><a href="#">Knowledgebase</a></li>
+											<li><a href="#">Forums</a></li>
+											<li><a href="#">Live Support</a></li>
+										</ul>
+									</li>
+								</ul>
+								<ul class="nav navbar-nav navbar-right">
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="#">Log In</a></li>
+											<li><a href="#">Register</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div><!-- /.navbar-collapse -->
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		
+
+		<!-- ______MAIN_______________________________________________ -->
+
+		<section class="main">
+			<!-- <div id="decorations">
+				<ul id="scene" class="scene">
+					<li id="decor-item-1" class="layer" data-depth="5.00"><div class="decor-image-sprite decor-1"></div></li>
+					<li id="decor-item-2" class="layer" data-depth="4.80"><div class="decor-image-sprite decor-2"></div></li>
+					<li id="decor-item-3" class="layer" data-depth="5.60"><div class="decor-image-sprite decor-3"></div></li>
+					<li id="decor-item-4" class="layer" data-depth="3.40"><div class="decor-image-sprite decor-4"></div></li>
+					<li id="decor-item-5" class="layer" data-depth="2.20"><div class="decor-image-sprite decor-5"></div></li>
+					<li id="decor-item-6" class="layer" data-depth="1.00"><div class="decor-image-sprite decor-6"></div></li>
+					<li id="decor-item-7" class="layer" data-depth="7.00"><div class="decor-image-sprite decor-7"></div></li>
+					<li id="decor-item-8" class="layer" data-depth="8.00"><div class="decor-image-sprite decor-8"></div></li>
+					<li id="decor-item-9" class="layer" data-depth="2.00"><div class="decor-image-sprite decor-9"></div></li>
+					<li id="decor-item-10" class="layer" data-depth="3.00"><div class="decor-image-sprite decor-10"></div></li>
+					<li id="decor-item-11" class="layer" data-depth="6.00"><div class="decor-image-sprite decor-11"></div></li>
+					<li id="decor-item-12" class="layer" data-depth="4.00"><div class="decor-image-sprite decor-12"></div></li>
+					<li id="decor-item-13" class="layer" data-depth="6.00"><div class="decor-image-sprite decor-13"></div></li>
+				</ul>
+			</div> -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Pricing</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="pricing-carts">
+						<div class="col-md-4">
+							<div class="pricing-cart pricing-cart-1">
+								<div class="price price-1">
+									<h3 class="price-name">Dedicated proxy</h3>
+								</div>
+								<div class="discount">
+									<span class="label">Discount</span><p class="discount" id="discount-1">0%</p>
+								</div>
+								<div class="unit-price">
+									<span class="label">Unit price</span><p class="unit-price" id="unit-price-1">$0</p>
+								</div>
+								<div class="total">
+									<span class="label">Total</span><p class="total" id="total-1">$0</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="pricing-cart pricing-cart-2">
+								<div class="price price-2">
+									<h3 class="price-name">Shared proxy</h3>
+								</div>
+								<div class="discount">
+									<span class="label">Discount</span><p class="discount" id="discount-2">0%</p>
+								</div>
+								<div class="unit-price">
+									<span class="label">Unit price</span><p class="unit-price" id="unit-price-2">$0</p>
+								</div>
+								<div class="total">
+									<span class="label">Total</span><p class="total" id="total-2">$0</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="pricing-cart pricing-cart-3">
+								<div class="price price-3">
+									<h3 class="price-name">VPN</h3>
+								</div>
+								<div class="discount">
+									<span class="label">Discount</span><p class="discount" id="discount-3">0%</p>
+								</div>
+								<div class="unit-price">
+									<span class="label">Unit price</span><p class="unit-price" id="unit-price-3">$0</p>
+								</div>
+								<div class="total">
+									<span class="label">Total</span><p class="total" id="total-3">$0</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">			
+						<div class="slider">
+							<h3 class="slider-header">Quantity</h3>
+							<input id="price-slider" type="text" data-slider-min="1" data-slider-max="100" data-slider-step="1" data-slider-value="0"/>
+						</div>						
+				</div>
+
+			</div>
+		</section>
+
+
+		<!-- ______ASKS_______________________________________________ -->
+		<section class="asks">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Frequently asked questions</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="ask-item">
+							<h3 class="qustion">What steps are involved in using your services?</h3>
+							<div class="answer">
+								<p>The process is very simple. You signup on our website and populate your shopping cart by adding IPs from various locations that you chose. After purchasing the proxies/VPNs, your selection is automatically added to your account and you may start using our services in just a few minutes.</p>
+							</div>
+						</div>
+						<div class="ask-item">
+							<h3 class="qustion">What is the difference between a proxy and a VPN?</h3>
+							<div class="answer">
+								<p>There are a lot of things to mention here. Basically, a proxy is used mostly in browsers and other applications which can be configured to use them. The traffic for that specific software is routed through the proxy and appears to be comming from it instead of your real ip address. The VPN routes all your internet traffic system wide through our servers which makes it more powerful and safer given the fact that all our VPNs are running on 128-bit encrypted tunnels.</p>
+							</div>
+						</div>
+						<div class="ask-item">
+							<h3 class="qustion">Is there a minimum commitment?</h3>
+							<div class="answer">
+								<p>We offer a month to month service. There is no contract or long term obligation. You are billed on a monthly basis, and if you cancel you will not be billed again. We do have a minimum quantity that you must purchase when ordering proxies: 5 for private proxies and 10 for shared proxies</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="ask-item">
+							<h3 class="qustion">What payment methods do you accept?</h3>
+							<div class="answer">
+								<p>We accept all major credit cards and also Paypal. Our payment gateway is <a href="#">avangate</a> which is a secure and complete online sales service</p>
+							</div>
+						</div>
+						<div class="ask-item">
+							<h3 class="qustion">Do you have a money back guarantee?</h3>
+							<div class="answer">
+								<p>Yes we do have a 30 day money back guarantee however, this doesn't apply if we detect that you have been using the proxies or VPNs. We refund only in case of bugs (service not working), or slow/bad service performance.</p>
+							</div>
+						</div>
+						<div class="ask-item">
+							<h3 class="qustion">Do I have any limits or restrictions?</h3>
+							<div class="answer">
+								<p>Yes you do. As a condition of your use of the Service, you warrant that you will not utilize the Service for any purpose that is unlawful or prohibited by <a href="#">our terms, conditions, and notices</a>. Also, our proxies are blocked for torrents and paypal.com</p>
+							</div>
+						</div>
+						<div class="ask-item">
+							<h3 class="qustion">What if I need proxies from custom locations?</h3>
+							<div class="answer">
+								<p>We can't guarantee that we will satisfy every request for custom locations but we surely take every suggestion into consideration. Of course, certain factors may affect our decision such as the quantity you need, past requests for the same location etc. Please <a href="#">Contact us</a> if interested.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<nav class="navbar navbar-default" role="navigation">
+							<div class="container-fluid">
+								<!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+						
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse navbar-ex1-collapse">
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="#">Home</a></li>
+										<li><a href="#">Datacenters</a></li>
+										<li><a href="#">Pricing</a></li>
+										<li class="active"><a href="#">tos</a></li>
+										<li><a href="#">Refunds</a></li>
+										<li><a href="#">Restrictions</a></li>
+										<li><a href="#">About us</a></li>
+									</ul>
+								</div><!-- /.navbar-collapse -->
+
+							</div>
+						</nav>
+					</div>
+					<div class="col-md-4">
+						<p class="copyright">DR SOFT S.R.L, Str. Prevederii nr.5, Bucharest, Romania</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- JS -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/parallax-master/deploy/jquery.parallax.min.js"></script>
+		<script src="js/bootstrap-slider-master/dist/bootstrap-slider.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

@@ -1,0 +1,169 @@
+/*   Media Queries File   */
+
+/* __________________________________________________________
+
+- BASE
+- HEADER
+- JUMBOTRON
+- ADVANTAGES
+- LIST-OF-PROPERTIES
+- FOOTER
+
+__________________________________________________________ */
+
+
+
+/* BASE
+__________________________________________________________ */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) { 
+
+}
+@media (max-width: 360px) { 
+
+}
+
+
+/* HEADER
+__________________________________________________________ */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) { 
+	.navbar-default .navbar-toggle {
+		border: none;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #5e5e88;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: #2f2e4c;
+	}
+		.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+			background-color: #fff;
+		}
+
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+		color: #5e5e88;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+		color: #babaeb;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: #5e5e88;
+	}
+
+}
+@media (max-width: 360px) { 
+
+}
+
+
+/* JUMBOTRON
+__________________________________________________________ */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.jumbotron {
+		padding-bottom: 50px;
+	}
+	.jumbotron h1 {
+		margin-top: 100px;
+	}
+}
+@media (max-width: 768px) { 
+
+}
+@media (max-width: 360px) { 
+
+}
+
+
+/* ADVANTAGES
+__________________________________________________________ */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.advantages-1 {
+		margin-bottom: 100px;
+	}
+	.advantages-2 {
+		margin-top: 0px;
+		margin-bottom: 100px;
+	}
+
+}
+@media (max-width: 768px) { 
+	
+}
+@media (max-width: 360px) { 
+
+}
+
+
+
+/* LIST-OF-PROPERTIES
+__________________________________________________________ */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.list-of-properties .list-left,
+	.list-of-properties .list-right {
+		text-align: center;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.list-of-properties .list-right {
+		margin-top: 100px;
+	}
+	.list-of-properties h3 {
+		padding-bottom: 20px;
+	}
+	.list-of-properties ul.properties-list li {
+		margin: 20px 0px;
+		position: relative;
+	}
+
+	.list-of-properties .list-left ul.properties-list li:after,
+	.list-of-properties .list-left ul.properties-list li:before {
+		content: none;
+	}
+}
+@media (max-width: 768px) { 
+
+}
+@media (max-width: 360px) { 
+
+}
+
+
+
+
+/* FOOTER
+__________________________________________________________ */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	footer.footer p.copyright {
+		float: none;
+		text-align: center;
+	}
+}
+@media (max-width: 768px) { 
+
+}
+@media (max-width: 360px) { 
+
+}
